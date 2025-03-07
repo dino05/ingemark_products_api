@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  products:api:
+  products_api:
     build: ./ing_products
     image: postgres:latest
     environment:
